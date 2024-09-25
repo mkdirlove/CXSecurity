@@ -49,9 +49,6 @@ options:
 ```
 #### Example
 
-```
-python3 CXSecurity.py --dork/--bugs/--exploit -f "keyword" -p 1-300
-```
 You can now scrape dorks by running the script like this:
 ```
 python3 CXSecurity.py --dork -f "sql injection" -p 5
