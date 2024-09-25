@@ -51,15 +51,15 @@ options:
 
 You can now scrape dorks by running the script like this:
 ```
-python3 CXSecurity.py --dork -f "keyword" -p 5
+python3 CXSecurity.py --dork -f "sql injection" -p 5
 ```
 
 You can now scrape bugs by running the script like this:
 ```
-python3 CXSecurity.py --bugs -f "keyword" -p 5
+python3 CXSecurity.py --bugs -f "microsoft" -p 5
 ```
 
 You can now scrape exploits by running the script like this:
 ```
-python3 CXSecurity.py --exploit -f "keyword" -p 5
+python3 CXSecurity.py --exploit -f "linux" -p 5
 ```
