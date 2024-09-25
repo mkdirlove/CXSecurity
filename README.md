@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/mkdirlove/CXSecurity"><img src="https://github.com/mkdirlove/CXSecurity/blob/main/logo.png" alt="CXSecurity"></a>
   <br>
-  A Python simple tool for scraping Dorks, Bugs, and Exploits from CXSecurity (https://cxsecurity.com)
+  A simple Python tool for scraping Dorks, Bugs, and Exploits from CXSecurity (https://cxsecurity.com)
   <br>
 </h1>
 
@@ -33,7 +33,7 @@ Made with ❤️  by @mkdirlove          v1.0-dev
 
 usage: CXSecurity.py [-h] [--bugs] [--exploit] [--dork] --page PAGE --filter FILTER
 
-A Python simple tool for scraping Dorks, Bugs, and Exploits from CXSecurity (https://cxsecurity.com)
+A simple Python tool for scraping Dorks, Bugs, and Exploits from CXSecurity (https://cxsecurity.com)
 
 options:
   -h, --help            show this help message and exit
