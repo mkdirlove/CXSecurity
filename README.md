@@ -44,7 +44,7 @@ options:
   --filter FILTER, -f FILTER
                         Keyword to filter the results
 ```
-#### Usage
+#### Example
 
 You can now scrape dorks by running the script like this:
 ```
