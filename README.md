@@ -17,6 +17,9 @@ git clone https://github.com/mkdirlove/CXSecurity.git
 cd CXSecurity
 ```
 ```
+python3 -m pip install -r requirements.txt
+```
+```
 python3 CXSecurity.py
 ```
 or
