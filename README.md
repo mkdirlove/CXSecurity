@@ -28,15 +28,18 @@ python3 CXSecurity.py -h
 ```
 #### Usage
 ```   
-█░█░░░░░█▀▀░█▀▀░█▀▀░█░█░█▀▄░▀█▀░▀█▀░█░█
+
+░█▀▀░█░█░░░░░█▀▀░█▀▀░█▀▀░█░█░█▀▄░▀█▀░▀█▀░█░█
 ░█░░░▄▀▄░▄▄▄░▀▀█░█▀▀░█░░░█░█░█▀▄░░█░░░█░░░█░
 ░▀▀▀░▀░▀░░░░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░░▀░░░▀░ 
 
 Made with ❤️  by @mkdirlove      [ v1.0-dev ]
 
-usage: v3.py [-h] [--bugs] [--exploit] [--dork] --keyword KEYWORD [--pages PAGES] [--output OUTPUT]
+usage: CXSecurity.py [-h] [--bugs] [--exploit] [--dork] --keyword KEYWORD
+                        [--pages PAGES] [--output OUTPUT]
 
-A simple Python tool for scraping Dorks, Bugs, and Exploits from CXSecurity (https://cxsecurity.com)
+A simple Python tool for scraping Dorks, Bugs, and Exploits from CXSecurity
+(https://cxsecurity.com)
 
 options:
   -h, --help            show this help message and exit
