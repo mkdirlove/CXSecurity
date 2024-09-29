@@ -33,10 +33,10 @@ python3 CXSecurity.py -h
 ░█░░░▄▀▄░▄▄▄░▀▀█░█▀▀░█░░░█░█░█▀▄░░█░░░█░░░█░
 ░▀▀▀░▀░▀░░░░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░░▀░░░▀░ 
 
-Made with ❤️  by @mkdirlove      [ v1.0-dev ]
+Made with ❤️  by @mkdirlove      [ v4.0-dev ]
 
-usage: CXSecurity.py [-h] [--bugs] [--exploit] [--dork] --keyword KEYWORD
-                        [--pages PAGES] [--output OUTPUT]
+usage: CXSecurity-v4.py [-h] [--bugs] [--exploit] [--dork] --keyword KEYWORD [--pages PAGES]
+                        [--sort_date {asc,desc}] [--output OUTPUT]
 
 A simple Python tool for scraping Dorks, Bugs, and Exploits from CXSecurity
 (https://cxsecurity.com)
@@ -47,25 +47,27 @@ options:
   --exploit, -x         Scrape exploits instead of dorks or bugs
   --dork, -d            Scrape dorks instead of bugs or exploits
   --keyword KEYWORD, -k KEYWORD
-                        Filter results based on this keyword
+                        Filter results containing a specific keyword
   --pages PAGES, -p PAGES
-                        Number of pages to scrape
+                        Number of pages to scrape (default: 1)
+  --sort_date {asc,desc}, -s {asc,desc}
+                        Sort by date (asc for ascending, desc for descending)
   --output OUTPUT, -o OUTPUT
-                        Output file to save the results
+                        Save the output to a file
 ```
 #### Example
 
 You can now scrape dorks by running the script like this:
 ```
-python3 CXSecurity.py --dork -k "sql injection" -p 5 -o dorks.txt
+python3 CXSecurity.py --dork -k "sql injection" -p 5 -s asc -o dorks.txt
 ```
 
 You can now scrape bugs by running the script like this:
 ```
-python3 CXSecurity.py --bugs -k "microsoft" -p 5 -o bugs.txt
+python3 CXSecurity.py --bugs -k "microsoft" -p 5 -s asc -o bugs.txt
 ```
 
 You can now scrape exploits by running the script like this:
 ```
-python3 CXSecurity.py --exploit -k "linux" -p 5 -o exploits.txt
+python3 CXSecurity.py --exploit -k "linux" -p 5 -s asc -o exploits.txt
 ```
