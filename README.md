@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/mkdirlove/CXSecurity"><img src="https://github.com/mkdirlove/CXSecurity/blob/main/logo.png" alt="CXSecurity"></a>
   <br>
-  A simple Python tool for scraping Dorks, Bugs, and Exploits from CXSecurity (https://cxsecurity.com)
+  A simple Python tool for scraping Dorks, Bugs, and Exploits from CXSecurity Website (https://cxsecurity.com)
   <br>
 </h1>
 
